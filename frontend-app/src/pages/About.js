@@ -1,7 +1,17 @@
+import React from 'react';
+import logo from '../assets/logo.svg';
+import '../css/App.css';
+
 function About() {
-    return (
-      <div>
-        <h2>About</h2>
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <header className="About-header">
+        <p>
+          About Page
+        </p>
+      </header>
+    </div>
+  );
+}
+
+export default About;
